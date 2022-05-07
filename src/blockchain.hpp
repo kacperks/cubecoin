@@ -5,8 +5,6 @@
 #include <vector>
 #include <iostream>
 
-// make a simple blockchain
-
 struct block{
     std::vector<transaction> transactions;
     std::string previous_hash;
